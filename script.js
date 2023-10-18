@@ -10,8 +10,8 @@ const allChars = upperCase + lowerCase + number + symbols;
 
 let length = lengths.value; 
 
-length.addEventListner('change', (e){
-    length = e.target.value; 
+lengths.addEventListner('change', (e){
+    lengths = e.target.value; 
 });
 function createPSWD(){
 
