@@ -1,5 +1,5 @@
 const pswd = document.getElementById('Password');
-const length = 16;
+const lengths = document.getElementById('length');
 
 const upperCase = "ABCDEFGHIJKLMNOPQRSTUVXYZ";
 const lowerCase = "abcefghijklmnopqrstuvwxyz";
@@ -9,6 +9,8 @@ const symbols = "@#$%^&*()_+~|}{[]><//-=";
 const allChars = upperCase + lowerCase + number + symbols;
 
 function createPSWD(){
+
+    var length = e.target.value; 
     let password = "";
 
     password += upperCase[Math.floor(Math.random() * upperCase.length)];
