@@ -22,6 +22,14 @@ body {
     font-size: 40px;
 }
 
+. container #hr-line{
+    display: flex;
+    justify-content: center;
+    max-width: 400px;
+    border: none;
+    border-bottom: 4px solid black;
+}
+
 .container h2 {
     width: 350px;
     white-space: nowrap;
@@ -58,7 +66,7 @@ body {
     }
 }
 
-.container .length-select{
+.container #select-div{
    margin-top: 20px;
 }
 
