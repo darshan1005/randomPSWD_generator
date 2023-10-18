@@ -8,6 +8,11 @@ const symbols = "@#$%^&*()_+~|}{[]><//-=";
 
 const allChars = upperCase + lowerCase + number + symbols;
 
+let length = lengths.value; 
+
+length.addEventListner('change', (e){
+    length = e.target.value; 
+});
 function createPSWD(){
 
     var length = e.target.value; 
