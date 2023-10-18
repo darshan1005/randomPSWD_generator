@@ -11,14 +11,17 @@
         <h1>Generate </h1>
         <br><h2>Random Password</h2>
         <p class="sun-text" id="p-text"></p>
-        <div class="display">
+        <div id="select-div">
+            <label id="length-label">Length :</label>
             <select id="code-length">
                 <option id="length">8</option>
                 <option id="length" >12</option>
                 <option id="length" >16</option>
                 <option id="length" >20</option>
                 <option id="length" >24</option>
-            </select>
+             </select>
+        </div>
+        <div class="display">
             <input type="text" name="" id="Password" placeholder="password">
             <img onclick="copy()" id="cpy_img" src="images/copy.png" alt="">
         </div>
