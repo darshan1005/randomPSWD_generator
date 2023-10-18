@@ -34,6 +34,10 @@ function copy() {
 
     copyText.select();
     copyText.setSelectionRange(0, 9999);
-
-    navigator.clipboard.writeText(copyText.value);
+    if (pswd.value.length > 0){
+        navigator.clipboard.writeText(copyText.value)
+        alert("Your password has copied");
+    }else{
+        alert ("Generate your password");
+    }
 }
