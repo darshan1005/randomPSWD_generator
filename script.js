@@ -11,11 +11,11 @@ const allChars = upperCase + lowerCase + number + symbols;
 let length = lengths.value; 
 
 lengths.addEventListner('change', (e){
-    lengths = e.target.value; 
+    length = e.target.value; 
 });
-function createPSWD(){
 
-    var length = e.target.value; 
+function createPSWD(){
+    
     let password = "";
 
     password += upperCase[Math.floor(Math.random() * upperCase.length)];
