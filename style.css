@@ -25,10 +25,13 @@ body {
 . container #hr-line{
     display: flex;
     justify-content: center;
-    width: 50%;
     max-width: 200px;
     border: none;
     border-bottom: 4px solid black;
+}
+
+hr{
+    width: 80%;
 }
 
 .container h2 {
