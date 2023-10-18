@@ -1,5 +1,5 @@
 const pswd = document.getElementById('Password');
-const lengths = document.getElementById('length');
+const lengths = document.getElementById('lengths');
 
 const upperCase = "ABCDEFGHIJKLMNOPQRSTUVXYZ";
 const lowerCase = "abcefghijklmnopqrstuvwxyz";
@@ -8,9 +8,9 @@ const symbols = "@#$%^&*()_+~|}{[]><//-=";
 
 const allChars = upperCase + lowerCase + number + symbols;
 
-let length = lengths.value; 
+let length = lengths.value;
 
-lengths.addEventListner('change', (e){
+lengths.addEventListener('change', (e){
     length = e.target.value; 
 });
 
