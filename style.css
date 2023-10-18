@@ -25,6 +25,7 @@ body {
 . container #hr-line{
     display: flex;
     justify-content: center;
+    width: 50%;
     max-width: 400px;
     border: none;
     border-bottom: 4px solid black;
