@@ -37,7 +37,7 @@ function copy() {
     if (pswd.value.length > 0){
         navigator.clipboard.writeText(copyText.value)
         alert("Your password has copied");
-        pswd.innerHTML="";
+        pswd.value.innerHTML="";
     }else{
         alert ("Generate your password");
     }
