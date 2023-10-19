@@ -33,7 +33,7 @@ function copy() {
     var copyText = document.getElementById('Password');
 
     copyText.select();
-    copyText.setSelectionRange(0, 9999);
+    copyText.setSelectionRange(0, 24);
     if (pswd.value.length > 0){
         navigator.clipboard.writeText(copyText.value)
         alert("Your password has copied");
